@@ -15,6 +15,7 @@ Arguments to the script has been made to make it flexible to which mail server s
 
 <code>-m MAILSERVER, --mailserver=MAILSERVER</code>
                         <code>Hostname of mailserver with port; hostname.org:25</code>
+
 <code>-u USER, --user=USER    Username for the mail account</code>
 
 <code>-p PASSWD, --passwd=PASSWD</code>
