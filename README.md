@@ -27,10 +27,9 @@ Arguments to the script has been made to make it flexible to which mail server s
 <code>-t EMAILTO, --emailto=EMAILTO
                         Mail you want to send the file to</code>
 
--f EMAILFROM, --emailfrom=EMAILFROM
+<code>-f EMAILFROM, --emailfrom=EMAILFROM
                         Naming of the email adress sent from. Mostly the same
-                        as your mailaccount
-</code>
+                        as your mailaccount</code>
 
 Install Instructions
 
