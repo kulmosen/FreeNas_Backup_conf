@@ -33,12 +33,12 @@ import subprocess
 
 #Define the arguments and add help describtions
 parser = optparse.OptionParser()
-parser.add_option('--name', help="Name of the system", action="store")
-parser.add_option('--mailserver', help="Hostname of mailserverwith port; hostname.org:25", action="store")
-parser.add_option('--user', help="Username for the mail account", action="store")
-parser.add_option('--passwd', help="Password for your mail account. Beaware that this is in cleartext", action="store")
-parser.add_option('--emailto', help="Mail you want to send the file to", action="store")
-parser.add_option('--emailfrom', help="Naming of the email adress sent from. Mostly the same as your mailaccount", action="store")
+parser.add_option('-n', '--name', help="Name of the system", action="store")
+parser.add_option('-m', '--mailserver', help="Hostname of mailserver with port; hostname.org:25", action="store")
+parser.add_option('-u', '--user', help="Username for the mail account", action="store")
+parser.add_option('-p', '--passwd', help="Password for your mail account. Beaware that this is in cleartext", action="store")
+parser.add_option('-t', '--emailto', help="Mail you want to send the file to", action="store")
+parser.add_option('-f', '--emailfrom', help="Naming of the email adress sent from. Mostly the same as your mailaccount", action="store")
 
 parser.set_defaults(name='Default FreeNAS Name')
 options, args = parser.parse_args()
