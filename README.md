@@ -1,4 +1,5 @@
-Freenas-bk-cfg
+FreeNAS Backup conf
+
 Python script to backup FreeNAS configuration file Created by Eric Bright Copyright (C) 2013
 Expanded by adding mail, and the use of zpool location of the backup, by Dennis Juhler Aagaard (C) 2014
 
@@ -9,21 +10,23 @@ Arguments to the script has been made to make it flexible to which mail server s
 Usage: BackupConf.py [options]
 
 Options:
-  -h, --help            show this help message and exit
-  -n NAME, --name=NAME  Name of the system
-  -m MAILSERVER, --mailserver=MAILSERVER
+-h, --help            show this help message and exit
+-n NAME, --name=NAME    Name of the system
+
+-m MAILSERVER, --mailserver=MAILSERVER
                         Hostname of mailserver with port; hostname.org:25
-  -u USER, --user=USER  Username for the mail account
-  -p PASSWD, --passwd=PASSWD
+-u USER, --user=USER    Username for the mail account
+
+-p PASSWD, --passwd=PASSWD
                         Password for your mail account. Beaware that this is
                         in cleartext
-  -t EMAILTO, --emailto=EMAILTO
+
+-t EMAILTO, --emailto=EMAILTO
                         Mail you want to send the file to
-  -f EMAILFROM, --emailfrom=EMAILFROM
+
+-f EMAILFROM, --emailfrom=EMAILFROM
                         Naming of the email adress sent from. Mostly the same
                         as your mailaccount
-
-
 
 Install Instructions
 
