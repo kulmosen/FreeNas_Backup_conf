@@ -40,7 +40,9 @@ Change the system back to read-only with mount -ur /
 Log into the FreeNAS Web Interface
 Expand System, expand Cron Jobs
 Select Add Cron Job
+
 User = root 
+
 Command = <code>BackupConf.py -n [name] -m [mailserver hostname] -u [mail account user] -p [password] -t [emailto] -f [emailfrom]</code>
 
 
