@@ -34,12 +34,12 @@ Arguments to the script has been made to make it flexible to which mail server s
 <h2>Install Instructions</h2>
 
 Copy BackupConf.py to /usr/local/sbin/ by first mounting the system as writeable with mount -uw /
-Change permissions to add execute to backup.py (ex. chmod +x /tmp/backup.py)
-Change the system back to read-only with mount -ur /
+<br>Change permissions to add execute to backup.py (ex. chmod +x /tmp/backup.py)
+<br>Change the system back to read-only with mount -ur /
 
 Log into the FreeNAS Web Interface
-Expand System, expand Cron Jobs
-Select Add Cron Job
+<br>Expand System, expand Cron Jobs
+<br>Select Add Cron Job
 
 User = root 
 
@@ -55,4 +55,4 @@ Uncheck Redirect Stderr to receive email* updates for errors processing the scri
 <br>Recommended is to have this unchecked to recieve any errors that might happen.
 
 Check Enabled to enable this job
-*emails sent to root account's email address
+<br>*emails sent to root account's email address
