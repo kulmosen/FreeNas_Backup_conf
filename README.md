@@ -10,7 +10,7 @@ Arguments to the script has been made to make it flexible to which mail server s
 <code>Usage: BackupConf.py [options]</code>
 
 <code>Options:</code>
--h, --help            show this help message and exit
+<code>-h, --help            show this help message and exit</code>
 -n NAME, --name=NAME    Name of the system
 
 -m MAILSERVER, --mailserver=MAILSERVER
