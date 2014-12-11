@@ -11,15 +11,15 @@ Arguments to the script has been made to make it flexible to which mail server s
 
 <code>Options:</code>
 <code>-h, --help            show this help message and exit</code>
--n NAME, --name=NAME    Name of the system
+<code>-n NAME, --name=NAME    Name of the system</code>
 
--m MAILSERVER, --mailserver=MAILSERVER
-                        Hostname of mailserver with port; hostname.org:25
--u USER, --user=USER    Username for the mail account
+<code>-m MAILSERVER, --mailserver=MAILSERVER</code>
+                        <code>Hostname of mailserver with port; hostname.org:25</code>
+<code>-u USER, --user=USER    Username for the mail account</code>
 
--p PASSWD, --passwd=PASSWD
-                        Password for your mail account. Beaware that this is
-                        in cleartext
+<code>-p PASSWD, --passwd=PASSWD</code>
+                        <code>Password for your mail account. Beaware that this is
+                        in cleartext</code>
 
 -t EMAILTO, --emailto=EMAILTO
                         Mail you want to send the file to
