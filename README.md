@@ -24,8 +24,8 @@ Arguments to the script has been made to make it flexible to which mail server s
                         <code>Password for your mail account. Beaware that this is
                         in cleartext</code>
 
--t EMAILTO, --emailto=EMAILTO
-                        Mail you want to send the file to
+<code>-t EMAILTO, --emailto=EMAILTO
+                        Mail you want to send the file to</code>
 
 -f EMAILFROM, --emailfrom=EMAILFROM
                         Naming of the email adress sent from. Mostly the same
