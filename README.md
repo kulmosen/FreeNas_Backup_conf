@@ -49,10 +49,10 @@ Command = <code>BackupConf.py -n [name] -m [mailserver hostname] -u [mail accoun
 Set it to run each hour to catch your FreeNAS changes. If there has not been any changes, nothing will happen.
 
 Uncheck Redirect Stdout to receive email* updates for the backup operation
-Recommended is having this checked, because you will recieve an email with the .db files attached.
+<br>Recommended is having this checked, because you will recieve an email with the .db files attached.
 
 Uncheck Redirect Stderr to receive email* updates for errors processing the script
-Recommended is to have this unchecked to recieve any errors that might happen.
+<br>Recommended is to have this unchecked to recieve any errors that might happen.
 
 Check Enabled to enable this job
 *emails sent to root account's email address
