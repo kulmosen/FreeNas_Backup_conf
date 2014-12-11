@@ -31,7 +31,7 @@ Arguments to the script has been made to make it flexible to which mail server s
                         Naming of the email adress sent from. Mostly the same
                         as your mailaccount</code>
 
-Install Instructions
+<h2>Install Instructions</h2>
 
 Copy BackupConf.py to /usr/local/sbin/ by first mounting the system as writeable with mount -uw /
 Change permissions to add execute to backup.py (ex. chmod +x /tmp/backup.py)
@@ -41,7 +41,7 @@ Log into the FreeNAS Web Interface
 Expand System, expand Cron Jobs
 Select Add Cron Job
 User = root 
-Command = BackupConf.py -n [name] -m [mailserver hostname] -u [mail account user] -p [password] -t [emailto] -f [emailfrom]
+Command = <code>BackupConf.py -n [name] -m [mailserver hostname] -u [mail account user] -p [password] -t [emailto] -f [emailfrom]</code>
 
 
 Set it to run each hour to catch your FreeNAS changes. If there has not been any changes, nothing will happen.
