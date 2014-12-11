@@ -7,10 +7,9 @@ This script will copy the FreeNAS configuration file (/data/freenas-v1.db) to th
 
 Arguments to the script has been made to make it flexible to which mail server should be used and also introduced a System name independent of hostname og the system in case you have multiple FreeNAS systems you need to have backups from.
 
-<code>
-Usage: BackupConf.py [options]
+<code>Usage: BackupConf.py [options]</code>
 
-Options:
+<code>Options:</code>
 -h, --help            show this help message and exit
 -n NAME, --name=NAME    Name of the system
 
